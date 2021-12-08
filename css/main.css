@@ -1,0 +1,74 @@
+
+html {
+
+    --sizetext: 12px;
+    --sizetitle1: 1.6rem;
+    --sizetitle2: 1.6rem;
+
+}
+
+body {
+
+    font-family: 'Arima Madurai', cursive;
+    font-size: var(--sizetext);
+    background-color: #161a1e;
+
+}
+
+a {
+
+    text-decoration: none;
+}
+
+
+nav ul {
+
+
+}
+
+button {
+
+    background: unset;
+    border: unset;
+}
+
+.card{
+
+
+margin: 2rem;
+
+
+
+}
+
+.card-image{
+
+    background: #fafafa;
+}
+
+.card img{
+
+    object-fit: contain;
+    height: 200px;
+    width: 200px;
+    padding: 1rem;
+    transition: 0.3s;
+}
+
+
+
+.yellowStar{
+
+
+    color: #ffe200;
+}
+
+.update, .delete{
+
+    padding: 0.5rem;
+}
+
+.passInput{
+
+
+}
